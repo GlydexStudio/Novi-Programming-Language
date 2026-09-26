@@ -1,0 +1,9 @@
+users = [
+    "Nexus",
+    "Lyra",
+    "Dante"
+];
+
+say users[0];
+say users.length;
+say users;

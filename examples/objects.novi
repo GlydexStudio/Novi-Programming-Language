@@ -1,0 +1,8 @@
+user = {
+    name = "Nexus";
+    age = 2;
+};
+
+say user.name;
+say user.age;
+say user["name"];

@@ -1,0 +1,7 @@
+name = "Nexus";
+age = 19;
+online = yes;
+
+say name;
+say age;
+say online;

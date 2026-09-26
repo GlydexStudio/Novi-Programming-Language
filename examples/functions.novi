@@ -1,0 +1,11 @@
+greet(name) {
+    say "Hello " + name;
+}
+
+add(a, b) {
+    return a + b;
+}
+
+greet("Nexus");
+result = add(5, 10);
+say result;

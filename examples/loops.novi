@@ -1,0 +1,5 @@
+users = ["Nexus", "Lyra", "Dante"];
+
+each(user in users) {
+    say user;
+}

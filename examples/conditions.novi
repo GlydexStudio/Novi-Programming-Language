@@ -1,0 +1,7 @@
+age = 19;
+
+check(age >= 18) {
+    say "Adult";
+} otherwise {
+    say "Minor";
+}

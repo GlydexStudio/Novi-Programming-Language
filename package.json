@@ -1,6 +1,6 @@
 {
   "name": "novi-language",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Novi Programming Language — an early developer preview by Glydex Studio.",
   "license": "MIT",
   "author": "Glydex Studio",
@@ -9,11 +9,33 @@
   "bin": {
     "novi": "dist/src/cli/main.js"
   },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "keywords": [
+    "novi",
+    "programming-language",
+    "language",
+    "interpreter",
+    "compiler",
+    "glydex-studio"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GlydexStudio/Novi-Programming-Language.git"
+  },
+  "homepage": "https://github.com/GlydexStudio/Novi-Programming-Language",
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "test": "npm run build && node --test dist/tests/*.test.js",
     "clean": "node -e \"require('fs').rmSync('dist',{recursive:true,force:true})\"",
     "start": "node dist/src/cli/main.js"
+  },
+  "engines": {
+    "node": ">=18"
   },
   "devDependencies": {
     "typescript": "^5.8.3"
